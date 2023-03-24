@@ -4,10 +4,46 @@
   box-sizing: border-box;
 }
 
+.d-flex{
+  display: flex;
+}
+
 .box{
-  width: 50px;
+  width: calc(100% / 10);
   height: 50px;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+  background-color: #1389b2;
+  border: solid 1px black;
+}
+
+.main-wrapper{
+  background-color: #083b4c;
+  height: 100vh;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#numberContainer{
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 20px auto;
+}
+
+.bg-blu{
+  background-color: #f0466f;
+}
+
+.bg-yellow{
+  background-color: yellow;
+}
+
+.bg-green{
+  background-color: green;
 }
